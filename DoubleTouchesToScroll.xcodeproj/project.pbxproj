@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E40C401725094300F15FCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E40C3F1725094300F15FCD /* UIKit.framework */; };
+		74E40C421725094300F15FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E40C411725094300F15FCD /* Foundation.framework */; };
+		74E40C441725094300F15FCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E40C431725094300F15FCD /* CoreGraphics.framework */; };
+		74E40C4A1725094300F15FCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74E40C481725094300F15FCD /* InfoPlist.strings */; };
+		74E40C4C1725094300F15FCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E40C4B1725094300F15FCD /* main.m */; };
+		74E40C501725094300F15FCD /* DTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E40C4F1725094300F15FCD /* DTAppDelegate.m */; };
+		74E40C521725094400F15FCD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E40C511725094400F15FCD /* Default.png */; };
+		74E40C541725094400F15FCD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E40C531725094400F15FCD /* Default@2x.png */; };
+		74E40C561725094400F15FCD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E40C551725094400F15FCD /* Default-568h@2x.png */; };
+		74E40C591725094400F15FCD /* DTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E40C581725094400F15FCD /* DTViewController.m */; };
+		74E40C5C1725094400F15FCD /* DTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E40C5A1725094400F15FCD /* DTViewController.xib */; };
+		74E40C6317250F6F00F15FCD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E40C6217250F6F00F15FCD /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74E40C3C1725094300F15FCD /* DoubleTouchesToScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleTouchesToScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E40C3F1725094300F15FCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74E40C411725094300F15FCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74E40C431725094300F15FCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74E40C471725094300F15FCD /* DoubleTouchesToScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleTouchesToScroll-Info.plist"; sourceTree = "<group>"; };
+		74E40C491725094300F15FCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74E40C4B1725094300F15FCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74E40C4D1725094300F15FCD /* DoubleTouchesToScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubleTouchesToScroll-Prefix.pch"; sourceTree = "<group>"; };
+		74E40C4E1725094300F15FCD /* DTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTAppDelegate.h; sourceTree = "<group>"; };
+		74E40C4F1725094300F15FCD /* DTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAppDelegate.m; sourceTree = "<group>"; };
+		74E40C511725094400F15FCD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		74E40C531725094400F15FCD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		74E40C551725094400F15FCD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		74E40C571725094400F15FCD /* DTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTViewController.h; sourceTree = "<group>"; };
+		74E40C581725094400F15FCD /* DTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTViewController.m; sourceTree = "<group>"; };
+		74E40C5B1725094400F15FCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTViewController.xib; sourceTree = "<group>"; };
+		74E40C6217250F6F00F15FCD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E40C391725094300F15FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E40C6317250F6F00F15FCD /* CoreMotion.framework in Frameworks */,
+				74E40C401725094300F15FCD /* UIKit.framework in Frameworks */,
+				74E40C421725094300F15FCD /* Foundation.framework in Frameworks */,
+				74E40C441725094300F15FCD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74E40C331725094300F15FCD = {
+			isa = PBXGroup;
+			children = (
+				74E40C451725094300F15FCD /* DoubleTouchesToScroll */,
+				74E40C3E1725094300F15FCD /* Frameworks */,
+				74E40C3D1725094300F15FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E40C3D1725094300F15FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E40C3C1725094300F15FCD /* DoubleTouchesToScroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E40C3E1725094300F15FCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74E40C6217250F6F00F15FCD /* CoreMotion.framework */,
+				74E40C3F1725094300F15FCD /* UIKit.framework */,
+				74E40C411725094300F15FCD /* Foundation.framework */,
+				74E40C431725094300F15FCD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74E40C451725094300F15FCD /* DoubleTouchesToScroll */ = {
+			isa = PBXGroup;
+			children = (
+				74E40C4E1725094300F15FCD /* DTAppDelegate.h */,
+				74E40C4F1725094300F15FCD /* DTAppDelegate.m */,
+				74E40C571725094400F15FCD /* DTViewController.h */,
+				74E40C581725094400F15FCD /* DTViewController.m */,
+				74E40C5A1725094400F15FCD /* DTViewController.xib */,
+				74E40C461725094300F15FCD /* Supporting Files */,
+			);
+			path = DoubleTouchesToScroll;
+			sourceTree = "<group>";
+		};
+		74E40C461725094300F15FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E40C471725094300F15FCD /* DoubleTouchesToScroll-Info.plist */,
+				74E40C481725094300F15FCD /* InfoPlist.strings */,
+				74E40C4B1725094300F15FCD /* main.m */,
+				74E40C4D1725094300F15FCD /* DoubleTouchesToScroll-Prefix.pch */,
+				74E40C511725094400F15FCD /* Default.png */,
+				74E40C531725094400F15FCD /* Default@2x.png */,
+				74E40C551725094400F15FCD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E40C3B1725094300F15FCD /* DoubleTouchesToScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E40C5F1725094400F15FCD /* Build configuration list for PBXNativeTarget "DoubleTouchesToScroll" */;
+			buildPhases = (
+				74E40C381725094300F15FCD /* Sources */,
+				74E40C391725094300F15FCD /* Frameworks */,
+				74E40C3A1725094300F15FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleTouchesToScroll;
+			productName = DoubleTouchesToScroll;
+			productReference = 74E40C3C1725094300F15FCD /* DoubleTouchesToScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E40C341725094300F15FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Zhou.Bin;
+			};
+			buildConfigurationList = 74E40C371725094300F15FCD /* Build configuration list for PBXProject "DoubleTouchesToScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74E40C331725094300F15FCD;
+			productRefGroup = 74E40C3D1725094300F15FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E40C3B1725094300F15FCD /* DoubleTouchesToScroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E40C3A1725094300F15FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E40C4A1725094300F15FCD /* InfoPlist.strings in Resources */,
+				74E40C521725094400F15FCD /* Default.png in Resources */,
+				74E40C541725094400F15FCD /* Default@2x.png in Resources */,
+				74E40C561725094400F15FCD /* Default-568h@2x.png in Resources */,
+				74E40C5C1725094400F15FCD /* DTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E40C381725094300F15FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E40C4C1725094300F15FCD /* main.m in Sources */,
+				74E40C501725094300F15FCD /* DTAppDelegate.m in Sources */,
+				74E40C591725094400F15FCD /* DTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74E40C481725094300F15FCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E40C491725094300F15FCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74E40C5A1725094400F15FCD /* DTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E40C5B1725094400F15FCD /* en */,
+			);
+			name = DTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E40C5D1725094400F15FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74E40C5E1725094400F15FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74E40C601725094400F15FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lei Ling (2L722MA3GV)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleTouchesToScroll/DoubleTouchesToScroll-Prefix.pch";
+				INFOPLIST_FILE = "DoubleTouchesToScroll/DoubleTouchesToScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F5202728-97CD-4C41-A8E6-82BFA4C3715E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74E40C611725094400F15FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleTouchesToScroll/DoubleTouchesToScroll-Prefix.pch";
+				INFOPLIST_FILE = "DoubleTouchesToScroll/DoubleTouchesToScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E40C371725094300F15FCD /* Build configuration list for PBXProject "DoubleTouchesToScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E40C5D1725094400F15FCD /* Debug */,
+				74E40C5E1725094400F15FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E40C5F1725094400F15FCD /* Build configuration list for PBXNativeTarget "DoubleTouchesToScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E40C601725094400F15FCD /* Debug */,
+				74E40C611725094400F15FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74E40C341725094300F15FCD /* Project object */;
+}
